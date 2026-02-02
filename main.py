@@ -4,7 +4,7 @@ import difflib
 from discord.ext import commands
 
 # Your preferred prefixes
-prefixes = ["!", "!", "!"]
+prefixes = ["$", "%", "&"]
 
 class MyBot(commands.Bot):
     def __init__(self):
